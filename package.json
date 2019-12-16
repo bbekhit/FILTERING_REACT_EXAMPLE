@@ -10,7 +10,7 @@
     "eslint-check": "eslint --print-config client/src/App.js | eslint-config-prettier-check"
   },
   "lint-staged":{
-    "client/src/**/*.{js,jsx,json,css}":[
+    "**/*.{js,jsx,json,css}":[
       "prettier --write",
       "git add"
     ]
