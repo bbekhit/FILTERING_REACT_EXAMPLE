@@ -9,8 +9,6 @@
     "ecmaVersion": 2018
   },
   "rules": {
-    "no-const-assign": "error",
-    "no-unused-expressions": "error",
     "prettier/prettier": [
       "error",
       {
